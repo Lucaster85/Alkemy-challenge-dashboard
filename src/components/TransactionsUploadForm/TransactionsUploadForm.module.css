@@ -1,0 +1,9 @@
+.Transaction {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px black;
+
+}
