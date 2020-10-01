@@ -1,0 +1,29 @@
+.Button {
+    background-color: white;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Button:hover {
+    transform: translateY(-2px);
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Submit {
+    color: green;
+}
+
+.Info {
+    color: blue;
+}
