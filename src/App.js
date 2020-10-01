@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import Layout from './components/Layout/Layout';
+import AdminApp from './containers/AdminApp';
+import classes from'./App.module.css';
 
 function App() {
   return (
-    <h1>App de Administracion personal</h1>
-  );
+    <div>
+      <Layout>
+        <AdminApp />
+      </Layout>
+    </div>
+    );
 }
 
 export default App;
