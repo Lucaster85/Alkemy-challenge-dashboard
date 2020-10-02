@@ -1,15 +1,17 @@
 import React from 'react';
 import classes from './TableHead.module.css';
 
-const tableHead = props => (
-    <thead>
-        <tr>
-            <td>TEST 1</td>
-            <td>TEST 2</td>
-            <td>TEST 3</td>
-            <td>TEST 4</td>
+const tableHead = props => {
+    let ths = props.data.map((th, i) => {
+        return <th key={th + i}>{th}</th>
+    })
+    console.log(props.data);
+    return(
+    <thead className={classes.TableHead}>
+        <tr> {/* colspan="2" */}
+            {ths}
         </tr>
     </thead>
-);
+)};
 
 export default tableHead;

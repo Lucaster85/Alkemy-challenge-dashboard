@@ -1,0 +1,19 @@
+.Table {
+    text-align: left;
+    border-collapse: collapse;
+}
+.Table td,
+.Table th {
+    padding: 10px;
+}
+.Table thead {
+    background-color: teal;
+    color: white;
+    border-bottom: 5px solid rgb(0, 63, 63);
+}
+.Table tr:nth-child(even) {
+    background-color: lightgray;
+}
+.Table tr:hover td{
+    background-color: teal;
+}
